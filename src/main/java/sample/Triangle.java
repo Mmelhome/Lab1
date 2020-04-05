@@ -31,6 +31,11 @@ public class Triangle implements Figure{
         return Math.min(Math.min(dots.get(0).getX(), dots.get(1).getX()), dots.get(2).getX());
     }
 
+    public double maxX() {
+        checkInput();
+        return Math.max(Math.max(dots.get(0).getX(), dots.get(1).getX()), dots.get(2).getX());
+    }
+
 
     public ArrayList<Dot> getDots() {
         return dots;

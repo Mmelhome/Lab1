@@ -14,5 +14,7 @@ public interface Figure {
     double getSquare();
 
     double minX();
+
+    double maxX();
 }
 

@@ -35,6 +35,11 @@ public class Circle implements Figure {
         return dots.get(0).getX() - radius;
     }
 
+    public double maxX() {
+        checkInput();
+        return dots.get(0).getX() + radius;
+    }
+
     public ArrayList<Dot> getDots() {
         return dots;
     }

@@ -31,6 +31,11 @@ public class Rectangle implements Figure{
         return Math.min(Math.min(dots.get(0).getX(), dots.get(1).getX()), Math.min(dots.get(2).getX(), dots.get(3).getX()));
     }
 
+    public double maxX() {
+        checkInput();
+        return Math.max(Math.max(dots.get(0).getX(), dots.get(1).getX()), Math.max(dots.get(2).getX(), dots.get(3).getX()));
+    }
+
     public ArrayList<Dot> getDots() {
         return dots;
     }
