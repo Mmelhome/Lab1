@@ -21,6 +21,11 @@ public class Rectangle implements Figure{
         return true;
     }
 
+    public double getSquare(){
+        checkInput();
+        return  Math.sqrt(Math.pow(dots.get(0).getX()-dots.get(1).getX(), 2) + Math.pow(dots.get(0).getY()-dots.get(1).getY(), 2)) * Math.sqrt(Math.pow(dots.get(1).getX()-dots.get(2).getX(), 2) + Math.pow(dots.get(1).getY()-dots.get(2).getY(), 2));
+    }
+
     public ArrayList<Dot> getDots() {
         return dots;
     }
