@@ -5,8 +5,9 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        /*Dot dot1 = new Dot(0.00, 0.00);
-        Dot dot2 = new Dot(0.00, 3.00);
+
+        /*Dot dot1 = new Dot(1.00, 0.00);
+        Dot dot2 = new Dot(6.00, 3.00);
         Dot dot3 = new Dot(4.00, 3.00);
 
         ArrayList<Dot> dots = new ArrayList<Dot>();
@@ -14,12 +15,12 @@ public class Main {
         dots.add(dot2);
         dots.add(dot3);
 
-        Sf
+
 
         Triangle triangle = new Triangle(dots);
-        System.out.println(triangle.getPerimeter());
-        System.out.println(triangle.getSquare());
+        System.out.println(triangle.proectionX());
+        //System.out.println(triangle.getSquare());*/
 
-*/
+
     }
 }
