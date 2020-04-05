@@ -14,6 +14,8 @@ public class Main {
         dots.add(dot2);
         dots.add(dot3);
 
+        S
+
         Triangle triangle = new Triangle(dots);
         System.out.println(triangle.getPerimeter());
         System.out.println(triangle.getSquare());
