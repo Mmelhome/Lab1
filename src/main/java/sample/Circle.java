@@ -26,6 +26,15 @@ public class Circle implements Figure {
         return true;
     }
 
+    public double getSquare() {
+        return 3.14 * radius * radius;
+    }
+
+    public double minX() {
+        checkInput();
+        return dots.get(0).getX() - radius;
+    }
+
     public ArrayList<Dot> getDots() {
         return dots;
     }

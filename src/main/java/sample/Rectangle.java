@@ -21,6 +21,16 @@ public class Rectangle implements Figure{
         return true;
     }
 
+    public double getSquare(){
+        checkInput();
+        return Math.abs((dots.get(0).getX() - dots.get(2).getX())*(dots.get(1).getY() - dots.get(2).getY()) - (dots.get(1).getX() - dots.get(2).getX())*(dots.get(0).getY() - dots.get(2).getY()));
+    }
+
+    public double minX() {
+        checkInput();
+        return Math.min(Math.min(dots.get(0).getX(), dots.get(1).getX()), Math.min(dots.get(2).getX(), dots.get(3).getX()));
+    }
+
     public ArrayList<Dot> getDots() {
         return dots;
     }

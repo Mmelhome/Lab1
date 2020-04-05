@@ -26,6 +26,12 @@ public class Triangle implements Figure{
         return (1/2.0)*Math.abs((dots.get(0).getX() - dots.get(2).getX())*(dots.get(1).getY() - dots.get(2).getY()) - (dots.get(1).getX() - dots.get(2).getX())*(dots.get(0).getY() - dots.get(2).getY()));
     }
 
+    public double minX() {
+        checkInput();
+        return Math.min(Math.min(dots.get(0).getX(), dots.get(1).getX()), dots.get(2).getX());
+    }
+
+
     public ArrayList<Dot> getDots() {
         return dots;
     }
