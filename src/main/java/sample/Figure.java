@@ -16,5 +16,7 @@ public interface Figure {
     double minX();
 
     double maxX();
+
+    double proectionX();
 }
 
