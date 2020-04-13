@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/task-1-artempetr22" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/task-2-datatypes-and-operators-artempetr22" vcs="Git" />
   </component>
 </project>
